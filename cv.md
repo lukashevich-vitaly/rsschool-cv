@@ -1,5 +1,3 @@
-![foto_Vitaly Lukashevich](\\img\foto-Vitaly-Lukashevich.jpg)
-
 # Vitaly Lukashevich
 ## About
 * *34 y.o.* 
