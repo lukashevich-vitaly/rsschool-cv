@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: orange;
+}
+
+.left-column {
+    background: #858585;
+}
+
+img {
+    width:350px;
+    height: 400px;
+}
+
+.left-column__title {
+    padding: 15px 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    border: none;
+    background: orange;
+}
+
+.left-column__subtitle {
+    padding: 5px 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-top-width: 0px;
+    background: orange;
+}
+
+.left-column__contacts, 
+.left-column__skills,
+.left-column__languages,
+.left-column__hobbies {
+    text-align: center;
+    margin: 3em 1em 1.5em;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+}
+
+.contacts-list__item {
+    color: white;
+}
+
+.skills-list__item,
+.languages-list__item,
+.hobbies-list__item {
+    margin: 0 1em 0.5em;
+    font-size: 1.2em;
+    color: white;
+}
+
+.left-column__level {
+    width: calc(350px-1em);
+    height: 10px;
+    background: white;
+}
+
+.level-html {
+    width: 250px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-css {
+    width: 200px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-js {
+    width: 100px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-english {
+    width: 150px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-football {
+    width: 300px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-travel {
+    width: 240px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-reading {
+    width: 250px;
+    height: 10px;
+    border: none;
+    background: orange;
+}
+
+.level-last {
+    margin-bottom: 2.5em;
+}
+
+.right-column {
+    background: #D9D9D9;
+}
+
+.right-column__title {
+    margin: 3em 2em 0;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.right-column__text {
+    margin: 1em 4em 0;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    margin: 2em;
+}

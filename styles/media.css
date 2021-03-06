@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    .right-column__title {
+        margin: 3em 2em 0;
+        font-size: 1.5em;
+        border: 1px solid black;
+    }
+    .right-column__text {
+        margin: 1em 3em 0;
+        font-size: 1.05em;
+        font-weight: 500;
+    }
+    .footer {
+        margin-top: 20em;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .body {
+        background-color: orange;
+    }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+    .left-column__contacts, 
+    .left-column__skills,
+    .left-column__languages,
+    .left-column__hobbies {
+        margin-top: 2em;
+    }
+    .skills-list__item,
+    .languages-list__item,
+    .hobbies-list__item {
+        margin-top: 0.2em;
+        font-size: 1em;
+    }
+    .right-column__title {
+        margin-top: 2em;
+        font-size: 1.3em;
+    }
+    .right-column__text {
+        margin: 1em 3em 0;
+        font-size: 0.9em;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+}
