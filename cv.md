@@ -37,3 +37,7 @@ var moveZeros = function (arr) {
 ### 🀄 Languages:
 * English (a-2)
 * Russian (native)
+### ⚽ Hobbies:
+* Football
+* Travelling
+* Reading
