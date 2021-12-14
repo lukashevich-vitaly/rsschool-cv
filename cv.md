@@ -1,5 +1,4 @@
-## Vitaly Lukashevich
-***
+# Vitaly Lukashevich
 #### 💻 Junior Frontend Developer
 ***
 ### 📘 Contacts:
