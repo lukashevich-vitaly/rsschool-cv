@@ -5,13 +5,13 @@
 * ##### +375295699329
 * ##### lykashevich.vitalij@gmail.com
 * ##### [linkedIn](https://www.linkedin.com/in/vitaly-lukashevich-0aa168225/)
-* ##### [instagram](https://www.instagram.com/lykashevich.vitalij/)
-***
+* ##### [instagram](https://www.instagram.com/lykashevich.vitalij/) 
+*****
 ### 👔 About:
 ***
 ### 🎓 Education:
 * Belarusian National Technical University/2005-2010, faculty "Automotive and Tractor",mechanical engineer
-***
+*****
 ### 💼 Work Experience:
 * State Forensic Examination Committee of the Republic of Belarus/2013-present, forensic expert
 * Forensic center of the Republic of Belarus/2010-2013, forensic expert
