@@ -7,8 +7,7 @@
 * ##### [linkedIn](https://www.linkedin.com/in/vitaly-lukashevich-0aa168225/)
 * ##### [instagram](https://www.instagram.com/lykashevich.vitalij/)
 ### 👔 About:
-# I'm 34 years old. I have skills in HTML, CSS / SASS, JS, React, Git and Figma. I’ve created projects of online stores, promo pages and online cinemas. I never stand still and constantly improve my skills in web development. Now I am looking for a job as a junior frontend developer. I see my future as a part of a dynamically developing company, where my skills will bring benefits.
-*****
+* I'm 34 years old. I have skills in HTML, CSS / SASS, JS, React, Git and Figma. I’ve created projects of online stores, promo pages and online cinemas. I never stand still and constantly improve my skills in web development. Now I am looking for a job as a junior frontend developer. I see my future as a part of a dynamically developing company, where my skills will bring benefits.
 ### 🎓 Education:
 * Belarusian National Technical University/2005-2010, faculty "Automotive and Tractor",mechanical engineer
 ### 💼 Work Experience:
