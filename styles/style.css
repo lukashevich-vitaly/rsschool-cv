@@ -1,0 +1,372 @@
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    max-width: 636px;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    margin: auto;
+}
+
+.section__left {
+    margin: 10px 6px 10px 14px;
+    max-width: 296px;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+}
+
+.wrap__section-left {
+    margin: 10px 15px 10px;
+}
+
+.section__right {
+    margin: 10px 14px 10px 0;
+    max-width: 321px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.wrap__header {
+    margin: 10px 26px 0 17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__avatar {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 7px;
+    width: 110px;
+    height: 116.02px;
+    border-radius: 93px;
+}
+
+.header__family {
+    margin: 5px 0 5px 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #CECACA;
+}
+
+.header__name {
+    margin: 5px 0 5px 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.header__position {
+    margin: 5px 0 5px 0;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #CECACA;
+}
+
+.navigation__list {
+    padding-left: 0;
+}
+
+.navigation__item {
+    margin: 0 15px 5px;
+    list-style: none;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px; 
+}
+
+.item__info {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    height: 38px;
+}
+
+.item__content {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.info__city {
+    padding-left: 5px;
+}
+
+.knowledge {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 0 15px 5px;
+}
+
+.knowledge__title {
+    margin: 0 0 5px 15px;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+.knowledge__list {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.knowlendge__item {
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.languages {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 15px 15px 5px;
+}
+
+.languages__title {
+    margin: 0 0 5px 15px;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+.languages__list {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.languages__item {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.level {
+    padding-left: 7px;
+}
+
+.social {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 15px 15px 5px;
+}
+
+.social__title {
+    margin: 0 0 5px 15px;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+.social__list {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.social__item {
+    list-style: none;
+}
+
+.social__link {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hobbies {
+    margin: 15px 15px 5px;
+}
+
+.hobbies__title {
+    background: rgba(196, 196, 196, 0.35);
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 0 5px 0;
+    padding: 5px 15px 5px 15px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+.hobbies__items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.main__section {
+    margin: 10px 10px 0 10px;
+}
+
+.title__about {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main__title {
+    display: flex;
+}
+
+.main__content {
+    margin: 0;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.education {
+    margin: 10px 10px 0 10px;
+}
+
+.title__education {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.education__title {
+    display: flex;
+}
+
+.education__content {
+    margin: 0;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.work {
+    margin: 10px 10px 0 10px;
+}
+
+.title__work {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.work__title {
+    display: flex;
+}
+
+.work__list {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+.work__item {
+    margin: 0;
+    list-style: none;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.courses {
+    margin: 10px 10px 0 10px;
+}
+
+.title__courses {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.courses__title {
+    display: flex;
+}
+
+.courses__list {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+.courses__item {
+    margin: 0;
+    list-style: none;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.skills {
+    margin: 10px 10px 0 10px;
+}
+
+.title__skills {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skills__title {
+    display: flex;
+}
+
+.skills__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsschool {
+    margin: 10px 10px 0 10px;
+}
+
+.title__rsschool {
+    width: 50%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    background:#545454;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rsschool__title {
+    display: flex;
+}
+
+.rsschool__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsschool__logo {
+    height: 30px;
+    width: 50px;
+}
+
+.year {
+    font-family: Montserrat;
+}
