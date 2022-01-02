@@ -1,0 +1,9 @@
+@media screen and (max-width: 635px) {
+    .wrap {
+        flex-wrap: wrap;
+    }
+    .section__right {
+        margin: 10px 6px 10px 14px;
+        max-width: 296px;
+    }
+}
