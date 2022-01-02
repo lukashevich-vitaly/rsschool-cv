@@ -6,4 +6,7 @@
         margin: 10px 6px 10px 14px;
         max-width: 296px;
     }
+    .item__content {
+        font-size: 12px;
+    }
 }
