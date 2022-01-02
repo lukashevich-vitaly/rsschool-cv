@@ -4,9 +4,204 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>CV Lukashevich Vitaly</title>
 </head>
 <body>
-    
+    <div class="wrap">
+
+        <section class="section__left">
+            
+            <header>
+                <div class="wrap__header">
+                    <img src="img/avatar.jpg" alt="avatar candidate" class="header__avatar">
+                    <div class="header__info">
+                        <h2 class="header__family">Lukashevich</h2>
+                        <h1 class="header__name">Vitaly</h1>
+                        <h2 class="header__position">FE developer</h2>
+                    </div>
+                </div>
+            </header>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <div class="item__info">
+                            <img src="img/mail.svg" alt="mail">
+                            <a class="item__content" href="mailto:lykashevich.vitaly@gmail.com">lykashevich.vitaly@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="item__info">
+                            <img src="img/telephone.svg" alt="telephone">
+                            <a class="item__content" href="tel:+375295699329">+375(29)5699329</a>
+                        </div>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="item__info">
+                            <img src="img/web.svg" alt="web">
+                            <a class="item__content" href="https://github.com/lukashevich-vitaly">github.com/lukashevich-vitaly</a>
+                        </div>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="item__info">
+                            <img class="info__city" src="img/city.svg" alt="location">
+                            <a class="item__content" href="https://goo.gl/maps/GsSFEQ4yTDXvpPjZA">Minsk</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="knowledge">
+                <h3 class="knowledge__title">Knowledge</h3>
+                <ul class="knowledge__list">
+                    <li class="knowlendge__item">HTML</li>
+                    <li class="knowlendge__item">CSS</li>
+                    <li class="knowlendge__item">JS</li>
+                    <li class="knowlendge__item">REACT</li>
+                    <li class="knowlendge__item">GIT</li>
+                    <li class="knowlendge__item">PARCEL</li>
+                    <li class="knowlendge__item">WEBPACK</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h3 class="languages__title">Languages</h3>
+                <ul class="languages__list">
+                    <li class="languages__item">English 
+                        <span class="level">
+                            <img src="img/level-english.svg" alt="english level">
+                        </span>
+                    </li>
+                    <li class="languages__item">Russian
+                        <span class="level">
+                            <img src="img/level_russian.svg" alt="russian level">
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="social">
+                <h3 class="social__title">Social</h3>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.instagram.com/lykashevich.vitalij/">Instagram</a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.linkedin.com/in/vitaly-lukashevich-0aa168225/">LinkedIn</a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://vk.com/id6714509">VKontakte</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="hobbies">
+                <h3 class="hobbies__title">Hobbies</h3>
+                <div class="hobbies__items">
+                    <img src="img/reading.svg" alt="reading">
+                    <img src="img/dancing.svg" alt="dancing">
+                    <img src="img/singing.svg" alt="singing">
+                    <img src="img/football.svg" alt="football">
+                </div>
+            </section>
+                
+        </section>
+        
+        <section class="section__right">
+
+            <section class="main__section">
+                <div class="main__title">
+                    <h3 class="title__about">About</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                <p class="main__content">
+                    I'm 34 years old. I have skills in HTML, CSS / SASS, JS, React, Git and Figma. 
+                    I’ve created projects of online stores, promo pages and online cinemas. I never 
+                    stand still and constantly improve my skills in web development. Now I am looking 
+                    for a job as a junior frontend developer. I see my future as a part of a dynamically 
+                    developing company, where my skills will bring benefits.
+                </p>
+            </section>
+
+            <section class="education">
+                <div class="education__title">
+                    <h3 class="title__education">Education</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                <p class="education__content">
+                    Belarusian National Technical University/2005-2010, faculty "Automotive and Tractor", <strong>mechanical engineer</strong> 
+                </p>
+            </section>
+
+            <section class="work">
+                <div class="work__title">
+                    <h3 class="title__work">Work</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                    <ul class="work__list">
+                        <li class="work__item">
+                            State Forensic Examination Committee of the Republic of Belarus/2013-present, <strong>forensic expert</strong> 
+                        </li>
+                        <li class="work__item">
+                            Forensic center of the Republic of Belarus/2010-2013, <strong>forensic expert</strong>
+                        </li>
+                    </ul>
+            </section>
+
+            <section class="courses">
+                <div class="courses__title">
+                    <h3 class="title__courses">Courses</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                    <ul class="courses__list">
+                        <li class="courses__item">
+                            GeekBrains/2021, <strong>web-development for starters</strong>
+                        </li>
+                        <li class="courses__item">
+                            TeachMeSkills/2021, <strong>frontend developer</strong>
+                        </li>
+                        <li class="courses__item">
+                            RSscholl/2021-present, <strong>js/frontend</strong>
+                        </li>
+                    </ul>
+            </section>
+
+            <section class="skills">
+                <div class="skills__title">
+                    <h3 class="title__skills">My skills</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                <div class="skills__content">
+                    <img src="img/html.svg" alt="html">
+                    <img src="img/css.svg" alt="css">
+                    <img src="img/js.svg" alt="javascript">
+                </div>
+            </section>
+
+            <footer class="rsschool">
+                <div class="rsschool__title">
+                    <h3 class="title__rsschool">Rsschool</h3>
+                    <img src="img/line.svg" alt="line" class="line">
+                </div>
+                <div class="rsschool__content">
+                    <div class="rsschool__link">
+                        <a href="https://rs.school/js/">
+                            <img class="rsschool__logo" src="img/rs_school_js.svg" alt="logo rsschool">
+                        </a>
+                    </div>
+                    <div class="year">
+                        <strong>2021</strong> 
+                    </div>
+                </div>
+            </footer>
+            
+        </section>
+    </div>
 </body>
 </html>
